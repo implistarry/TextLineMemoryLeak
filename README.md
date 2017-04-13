@@ -1,6 +1,8 @@
 # TextLineMemoryLeak
-Issue: https://code.google.com/p/android/issues/detail?id=59310   android.text.TextLine has memory leak on mSpanned and SpanSet. 
+Issue: https://code.google.com/p/android/issues/detail?id=59310   
+android.text.TextLine has memory leak on mSpanned and SpanSet. 
 
+#solution
 
 
               public class TextLineRecycler {  
